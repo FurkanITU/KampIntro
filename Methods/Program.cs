@@ -16,7 +16,7 @@ namespace Methods
             urun2.Fiyati = 80;
             urun2.Aciklama = "Diyarbakır karpuzu";
 
-            Product[] urunler = new Product[] {urun1,urun2 };
+            Product[] urunler = new Product[] { urun1, urun2 };
             
             // type safe 
             foreach (Product urun in urunler)
